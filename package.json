@@ -19,7 +19,7 @@
     "devDependencies": {
         "ava": "^0.19.1",
         "css-loader": "^0.28.1",
-        "eslint": "^3.19.0",
+        "eslint": "^4.19.1",
         "eslint-loader": "^1.7.1",
         "style-loader": "^0.17.0",
         "url-loader": "^0.5.8",
