@@ -1,0 +1,28 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "node ./src/server.js",
+        "test": "node_modules/.bin/ava --verbose"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "ejs": "^2.5.6",
+        "express": "^4.15.2",
+        "jquery": "^3.2.1"
+    },
+    "devDependencies": {
+        "ava": "^0.19.1",
+        "css-loader": "^0.28.1",
+        "eslint": "^3.19.0",
+        "eslint-loader": "^1.7.1",
+        "style-loader": "^0.17.0",
+        "url-loader": "^0.5.8",
+        "webpack": "^2.4.1"
+    }
+}

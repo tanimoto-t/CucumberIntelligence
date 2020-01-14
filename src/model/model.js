@@ -1,0 +1,7 @@
+/*
+ * モデル
+ */
+
+"use strict";
+
+// hogehoge

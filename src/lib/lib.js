@@ -1,0 +1,7 @@
+/*
+ * ライブラリ
+ */
+
+"use strict";
+
+// hogehoge
