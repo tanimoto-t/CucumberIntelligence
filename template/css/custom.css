@@ -3,6 +3,6 @@
   text-align: center;
 }
 
-#carouselExampleControls{
+.sample-form-group, #carouselExampleControls{
   margin-bottom: 100px;
 }
