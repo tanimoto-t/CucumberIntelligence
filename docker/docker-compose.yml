@@ -12,3 +12,7 @@ services:
       - PGPASSWORD=Password12
       - POSTGRES_DB=postgresDB
       - DATABASE_HOST=localhost
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+volumes:
+  postgres-db:
