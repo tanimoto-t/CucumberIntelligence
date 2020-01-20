@@ -11,19 +11,23 @@ $ git clone https://github.com/tanimoto-t/CucumberIntelligence.git
 ```
 cd CucumberIntelligence
 ```
-3. Installing packages
+3. npm version up
+```
+$ npm install -g npm
+```
+4. Installing packages
 ```
 $ npm install
 ```
-4. Build
+5. Build
 ```
 $ npm run build
 ```
-5. Start
+6. Start
 ```
 $ npm run start
 ```
-6. Open page
+7. Open page
  * http://localhost:8989/
 
 ### how to update bootstrap
