@@ -5,7 +5,8 @@
 | ID         | item_id    | bigint(20)    | NOT NULL | PRIMARY KEY AUTO_INCREMENT, |      |
 | 名前       | name       | varchar(200)  | NOT NULL | ,                           |      |
 | 個数       | number     | int(1000)     | NOT NULL | ,                           |      |
-| カテゴリ−  | category   | tinyint(1)    | NOT NULL | DEFAULT 0,                  |      |
+| カテゴリ−  | category   | tinyint(3)  | NOT NULL | DEFAULT 0,                  |      |
+| 商品状態   | condition  | tinyint(3)  | NOT NULL | DEFAULT 0,                  |      |
 | 出品者ID   | user_id    | bigint(20)    | NOT NULL | ,                           |      |
 | 商品詳細   | detail     | varchar(1000) |          | ,                           |      |
 | 画像1      | image_1    | varchar(200)  |          | ,                           |      |
