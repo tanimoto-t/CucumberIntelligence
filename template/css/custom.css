@@ -1,8 +1,24 @@
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+  padding: 15px;
+  color: #c0c0c0;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 #carouselExampleControls{
   margin-bottom: 100px;
+}
+
+.input-form {
+  border: solid 1px #d3d3d3
+}
+
+.item-name,
+.item-description {
+  padding: 0px 20px;
+  padding-top: 40px;
+}
+
+.badge{
+  margin-left: 10px;
 }
