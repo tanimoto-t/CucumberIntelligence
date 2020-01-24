@@ -13,8 +13,15 @@
   border: solid 1px #d3d3d3
 }
 
-.item-name,
+.item-name {
+
+}
+
 .item-description {
+
+}
+
+.subsection-padding {
   padding: 0px 20px;
   padding-top: 40px;
 }
