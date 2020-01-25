@@ -29,3 +29,13 @@
 .badge{
   margin-left: 10px;
 }
+
+#gazoumoji{
+  font-size: 8px;
+  text-align: left;
+}
+
+.gazouarea_input{
+  width: 60px;
+  height: 100px;
+}
