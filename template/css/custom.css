@@ -10,11 +10,12 @@
 }
 
 .input-form {
-  border: solid 1px #d3d3d3
+  border: solid 1px #d3d3d3;
+  margin-bottom: 60px;
 }
 
 .item-name {
-
+  margin-top: 20px;
 }
 
 .item-description {
@@ -22,10 +23,22 @@
 }
 
 .subsection-padding {
-  padding: 0px 20px;
-  padding-top: 40px;
+  padding: 20px;
 }
 
 .text-margine-small {
   margin-left: 10px;
+}
+
+.select-form {
+  width: 75%;
+}
+
+.buttons {
+  border: solid 1px #d3d3d3;
+}
+
+.button-form {
+  width: 70%;
+  margin: 5px;
 }
