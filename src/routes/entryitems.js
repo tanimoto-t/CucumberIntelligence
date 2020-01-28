@@ -11,32 +11,38 @@ var condition;
 var startDate;
 var endDate;
 
-var { Client } = require('pg');
+const sampleSql1 = 'SELECT CURRENT_TIMESTAMP'
+const sampleSql2 = 'SELECT * FROM items'
 
-var client = new Client({
-    user: 'cucumber',
-    host: 'localhost',
-    database: 'CucumberIntelligence',
-    password: 'Password12',
-    port: 5432
-})
+var connection = require('../utility/pgConnection');
 
-client.connect()
-
-client.query('SELECT CURRENT_TIMESTAMP',
+// CallBack型
+connection.query(sampleSql1,
   (err, res) => {
-    console.log(res);
-    console.log(err);
-    // client.end();
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('CallBack型')
+      console.log(res);
+    }
   })
 
-client.query('SELECT * FROM items',
-  (err, res) => {
+// Promise型
+connection.query(sampleSql1)
+  .then(res => {
+    console.log('Promise型')
     console.log(res);
+  })
+  .catch(err =>{
     console.log(err);
-    client.end();
   })
 
+// DBアクセスサンプル
+connection.query(sampleSql2,
+  (err, res) => {
+    console.log(res);
+    connection.end();
+  })
 
 class Index {
     constructor() {}
