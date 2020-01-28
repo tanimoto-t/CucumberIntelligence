@@ -19,15 +19,19 @@ $ npm install -g npm
 ```
 $ npm install
 ```
-5. Build
+5. Install pg (for DB access)
+```
+$ npm install pg
+```
+6. Build
 ```
 $ npm run build
 ```
-6. Start
+7. Start
 ```
 $ npm run start
 ```
-7. Open page
+8. Open page
  * http://localhost:8989/
 
 ### how to update bootstrap
@@ -58,3 +62,4 @@ $ npm run build
 + [Create base repository](https://qiita.com/hikarut/items/454fa2d434a920a55bac)
 + [How to update bootstrap to v4.3.1](https://kotaeta.com/67348723)
 + [bootstrap component](https://getbootstrap.jp/docs/4.3/components/buttons/)
++ [DB access](https://www.sejuku.net/blog/81358)
