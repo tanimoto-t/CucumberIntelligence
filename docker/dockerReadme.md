@@ -31,6 +31,28 @@ $ docker exec -ti postgre12.1 bash
 $ psql -U cucumber -d CucumberIntelligence
 ```
 
+## きゅうり用のDockerを一括削除する方法
+1. dockerコンテナー状態確認
+```
+$ docker ps -a
+```
+2. dockerコンテナー一括停止
+```
+$ docker stop $(docker ps -a -q)
+```
+* オプション：-q は、docker IDの情報のみ表示という意味です。または、起動しているdockerのみ表示。
+
+3. dockerコンテナー一括削除
+```
+$ docker rm $(docker ps -a -q)
+```
+4. dockerボリューム一括削除
+```
+$ docker volume prune
+ ⇒本当に削除するか聞かれるので「y」を入力/実行
+```
+
+
 # Dockerの補足説明
 ## Docker Composeの起動方法
 1. dockerフォルダに移動。
